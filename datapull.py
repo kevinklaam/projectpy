@@ -37,6 +37,7 @@ def chart(ticker):
     plt.title(ticker + '  ' + str(datetime.now().date()))
     ax.xaxis.set_major_formatter(mdates.DateFormatter('%H:%M'))
     ax.plot(df['minute'], df['average'])
+    plt.show()
 
 
 def candlestick(ticker):
@@ -104,8 +105,8 @@ def candlestick(ticker):
     candlestick_ohlc(ax, df.values, width=0.0001 ,colorup='g')
     plt.title(ticker + '  ' + str(datetime.now().date()))
     ax.plot()
-   
+    plt.show()
 
 #chart("AAPL")
 #candlestick("AAPL")
-plt.show()
+
