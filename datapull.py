@@ -107,6 +107,7 @@ def candlestick(ticker):
     ax.plot()
     plt.show()
 
+#candlestick(ticker)
 #chart("AAPL")
-#candlestick("AAPL")
+
 
