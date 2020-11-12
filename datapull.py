@@ -14,7 +14,7 @@ def chart(ticker):
     ax = plt.subplot()
 
     print(datetime.now().date())
-    df = get_historical_intraday(ticker, output_format='pandas')
+    df = get_historical_intraday(ticker, output_format='pandas', token="<pk_a969baae0f744abd905865e2d5d0acfa>")
     print(df.head())
 
     df = df[['average']] 
@@ -59,7 +59,7 @@ def candlestick(ticker):
     ##df_close = pd.DataFrame()
 
     print(datetime.now().date())
-    df = get_historical_intraday(ticker, output_format='pandas')
+    df = get_historical_intraday(ticker,output_format='pandas', token="<sk_1da2a30c93b740bab23ef61a5112f1da>")
     print(df.head())
 
     df = df[[ 'open', 'high', 'low', 'close']] 
