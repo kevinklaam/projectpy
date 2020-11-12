@@ -15,8 +15,8 @@ Use the package manager pip to install pandas, numpy, matplotlib, PyQt5, iexfina
 
 ## Usage
 
-Run maingui.py using VSCode or IDLE enviroment
-For VSCode : Right Click Open File> Run Python file in Terminal
+Run maingui.py using VSCode or IDLE enviroment  
+For VSCode : Right Click Open File> Run Python file in Terminal  
 For IDLE : Run Module
 
 ## Contributing
